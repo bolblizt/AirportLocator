@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1989EAF3C84EBB5379BA3B72 /* Pods_AiportLocatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E046F477A230274B9742E16B /* Pods_AiportLocatorTests.framework */; };
+		6CD7715925DAE879B21252EE /* Pods_AiportLocatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48D82B6B2B9A79703EC5313 /* Pods_AiportLocatorUITests.framework */; };
+		78CB5708381B092443FB7F95 /* Pods_AiportLocator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6AEF0AD585D9EED691603F /* Pods_AiportLocator.framework */; };
+		CE29D31E1EA635D700D013D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29D31D1EA635D700D013D4 /* AppDelegate.swift */; };
+		CE29D3201EA635D700D013D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29D31F1EA635D700D013D4 /* ViewController.swift */; };
+		CE29D3231EA635D700D013D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE29D3211EA635D700D013D4 /* Main.storyboard */; };
+		CE29D3251EA635D700D013D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE29D3241EA635D700D013D4 /* Assets.xcassets */; };
+		CE29D3281EA635D700D013D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE29D3261EA635D700D013D4 /* LaunchScreen.storyboard */; };
+		CE29D3331EA635D700D013D4 /* AiportLocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29D3321EA635D700D013D4 /* AiportLocatorTests.swift */; };
+		CE29D3501EA6507600D013D4 /* AirportLoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29D34F1EA6507600D013D4 /* AirportLoc.swift */; };
+		CE29D3521EA6511E00D013D4 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29D3511EA6511E00D013D4 /* Airport.swift */; };
+		CE29D3541EA6556F00D013D4 /* AirportDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29D3531EA6556F00D013D4 /* AirportDetailViewController.swift */; };
+		CE29D3561EA6576000D013D4 /* AirportList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29D3551EA6576000D013D4 /* AirportList.swift */; };
+		CE29D3581EA6583500D013D4 /* AirportDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29D3571EA6583500D013D4 /* AirportDetailView.swift */; };
+		CE29D35A1EA6602D00D013D4 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29D3591EA6602D00D013D4 /* DataLoader.swift */; };
+		CE321A091EA7937900433AB0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE321A081EA7937900433AB0 /* MapKit.framework */; };
+		CE321A0B1EA793C500433AB0 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE321A0A1EA793C500433AB0 /* MapAnnotation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE29D32F1EA635D700D013D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE29D3121EA635D700D013D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE29D3191EA635D700D013D4;
+			remoteInfo = AiportLocator;
+		};
+		CE29D33A1EA635D700D013D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE29D3121EA635D700D013D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE29D3191EA635D700D013D4;
+			remoteInfo = AiportLocator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D6AEF0AD585D9EED691603F /* Pods_AiportLocator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AiportLocator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43925DC3499C7689648A9EDB /* Pods-AiportLocatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiportLocatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AiportLocatorUITests/Pods-AiportLocatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		96C0E4AC18F850951ABAAD33 /* Pods-AiportLocator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiportLocator.release.xcconfig"; path = "Pods/Target Support Files/Pods-AiportLocator/Pods-AiportLocator.release.xcconfig"; sourceTree = "<group>"; };
+		B644C5A84589258069204713 /* Pods-AiportLocatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiportLocatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AiportLocatorUITests/Pods-AiportLocatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE29D31A1EA635D700D013D4 /* AiportLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiportLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE29D31D1EA635D700D013D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE29D31F1EA635D700D013D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE29D3221EA635D700D013D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE29D3241EA635D700D013D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE29D3271EA635D700D013D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE29D3291EA635D700D013D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE29D32E1EA635D700D013D4 /* AiportLocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiportLocatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE29D3321EA635D700D013D4 /* AiportLocatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiportLocatorTests.swift; sourceTree = "<group>"; };
+		CE29D3341EA635D700D013D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE29D3391EA635D700D013D4 /* AiportLocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiportLocatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE29D34F1EA6507600D013D4 /* AirportLoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportLoc.swift; sourceTree = "<group>"; };
+		CE29D3511EA6511E00D013D4 /* Airport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		CE29D3531EA6556F00D013D4 /* AirportDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportDetailViewController.swift; sourceTree = "<group>"; };
+		CE29D3551EA6576000D013D4 /* AirportList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportList.swift; sourceTree = "<group>"; };
+		CE29D3571EA6583500D013D4 /* AirportDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportDetailView.swift; sourceTree = "<group>"; };
+		CE29D3591EA6602D00D013D4 /* DataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		CE321A081EA7937900433AB0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CE321A0A1EA793C500433AB0 /* MapAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		D2A61F4BA4D7EDD0FC3E811E /* Pods-AiportLocatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiportLocatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AiportLocatorTests/Pods-AiportLocatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		D37C9A66C606B2586FA35CEF /* Pods-AiportLocatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiportLocatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AiportLocatorTests/Pods-AiportLocatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D48D82B6B2B9A79703EC5313 /* Pods_AiportLocatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AiportLocatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E046F477A230274B9742E16B /* Pods_AiportLocatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AiportLocatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF44CB89AAF4F0149EAF26CD /* Pods-AiportLocator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiportLocator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AiportLocator/Pods-AiportLocator.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE29D3171EA635D700D013D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE321A091EA7937900433AB0 /* MapKit.framework in Frameworks */,
+				78CB5708381B092443FB7F95 /* Pods_AiportLocator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE29D32B1EA635D700D013D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1989EAF3C84EBB5379BA3B72 /* Pods_AiportLocatorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE29D3361EA635D700D013D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD7715925DAE879B21252EE /* Pods_AiportLocatorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31A8A55CFB49FE9D5C4BAB37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF44CB89AAF4F0149EAF26CD /* Pods-AiportLocator.debug.xcconfig */,
+				96C0E4AC18F850951ABAAD33 /* Pods-AiportLocator.release.xcconfig */,
+				D37C9A66C606B2586FA35CEF /* Pods-AiportLocatorTests.debug.xcconfig */,
+				D2A61F4BA4D7EDD0FC3E811E /* Pods-AiportLocatorTests.release.xcconfig */,
+				43925DC3499C7689648A9EDB /* Pods-AiportLocatorUITests.debug.xcconfig */,
+				B644C5A84589258069204713 /* Pods-AiportLocatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		70F24D961464E460CEF1B912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE321A081EA7937900433AB0 /* MapKit.framework */,
+				1D6AEF0AD585D9EED691603F /* Pods_AiportLocator.framework */,
+				E046F477A230274B9742E16B /* Pods_AiportLocatorTests.framework */,
+				D48D82B6B2B9A79703EC5313 /* Pods_AiportLocatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE29D3111EA635D700D013D4 = {
+			isa = PBXGroup;
+			children = (
+				CE29D31C1EA635D700D013D4 /* AiportLocator */,
+				CE29D3311EA635D700D013D4 /* AiportLocatorTests */,
+				CE29D31B1EA635D700D013D4 /* Products */,
+				31A8A55CFB49FE9D5C4BAB37 /* Pods */,
+				70F24D961464E460CEF1B912 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE29D31B1EA635D700D013D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE29D31A1EA635D700D013D4 /* AiportLocator.app */,
+				CE29D32E1EA635D700D013D4 /* AiportLocatorTests.xctest */,
+				CE29D3391EA635D700D013D4 /* AiportLocatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE29D31C1EA635D700D013D4 /* AiportLocator */ = {
+			isa = PBXGroup;
+			children = (
+				CE29D31D1EA635D700D013D4 /* AppDelegate.swift */,
+				CE29D31F1EA635D700D013D4 /* ViewController.swift */,
+				CE29D3551EA6576000D013D4 /* AirportList.swift */,
+				CE29D3531EA6556F00D013D4 /* AirportDetailViewController.swift */,
+				CE29D3571EA6583500D013D4 /* AirportDetailView.swift */,
+				CE29D34F1EA6507600D013D4 /* AirportLoc.swift */,
+				CE29D3511EA6511E00D013D4 /* Airport.swift */,
+				CE321A0A1EA793C500433AB0 /* MapAnnotation.swift */,
+				CE29D3591EA6602D00D013D4 /* DataLoader.swift */,
+				CE29D3211EA635D700D013D4 /* Main.storyboard */,
+				CE29D3241EA635D700D013D4 /* Assets.xcassets */,
+				CE29D3261EA635D700D013D4 /* LaunchScreen.storyboard */,
+				CE29D3291EA635D700D013D4 /* Info.plist */,
+			);
+			path = AiportLocator;
+			sourceTree = "<group>";
+		};
+		CE29D3311EA635D700D013D4 /* AiportLocatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE29D3321EA635D700D013D4 /* AiportLocatorTests.swift */,
+				CE29D3341EA635D700D013D4 /* Info.plist */,
+			);
+			path = AiportLocatorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE29D3191EA635D700D013D4 /* AiportLocator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE29D3421EA635D700D013D4 /* Build configuration list for PBXNativeTarget "AiportLocator" */;
+			buildPhases = (
+				380DC8AB5E113EE578E1A266 /* [CP] Check Pods Manifest.lock */,
+				CE29D3161EA635D700D013D4 /* Sources */,
+				CE29D3171EA635D700D013D4 /* Frameworks */,
+				CE29D3181EA635D700D013D4 /* Resources */,
+				FE82B90ABE80302D2A897CA5 /* [CP] Embed Pods Frameworks */,
+				1684A9D44FD6F4AD2DCB7706 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AiportLocator;
+			productName = AiportLocator;
+			productReference = CE29D31A1EA635D700D013D4 /* AiportLocator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE29D32D1EA635D700D013D4 /* AiportLocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE29D3451EA635D700D013D4 /* Build configuration list for PBXNativeTarget "AiportLocatorTests" */;
+			buildPhases = (
+				83D4FC40CE9E15428A3BFA02 /* [CP] Check Pods Manifest.lock */,
+				CE29D32A1EA635D700D013D4 /* Sources */,
+				CE29D32B1EA635D700D013D4 /* Frameworks */,
+				CE29D32C1EA635D700D013D4 /* Resources */,
+				D41458AE0FEF962BD517E15D /* [CP] Embed Pods Frameworks */,
+				21B6164189F9C1341C9B7F44 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE29D3301EA635D700D013D4 /* PBXTargetDependency */,
+			);
+			name = AiportLocatorTests;
+			productName = AiportLocatorTests;
+			productReference = CE29D32E1EA635D700D013D4 /* AiportLocatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE29D3381EA635D700D013D4 /* AiportLocatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE29D3481EA635D700D013D4 /* Build configuration list for PBXNativeTarget "AiportLocatorUITests" */;
+			buildPhases = (
+				3C614085573FCB0F7D817560 /* [CP] Check Pods Manifest.lock */,
+				CE29D3351EA635D700D013D4 /* Sources */,
+				CE29D3361EA635D700D013D4 /* Frameworks */,
+				CE29D3371EA635D700D013D4 /* Resources */,
+				71727B4A1E17CCB60F901132 /* [CP] Embed Pods Frameworks */,
+				4E18DDAE355A6942943D2428 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE29D33B1EA635D700D013D4 /* PBXTargetDependency */,
+			);
+			name = AiportLocatorUITests;
+			productName = AiportLocatorUITests;
+			productReference = CE29D3391EA635D700D013D4 /* AiportLocatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE29D3121EA635D700D013D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CE29D3191EA635D700D013D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J3PTR9R9DR;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					CE29D32D1EA635D700D013D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE29D3191EA635D700D013D4;
+					};
+					CE29D3381EA635D700D013D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE29D3191EA635D700D013D4;
+					};
+				};
+			};
+			buildConfigurationList = CE29D3151EA635D700D013D4 /* Build configuration list for PBXProject "AiportLocator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE29D3111EA635D700D013D4;
+			productRefGroup = CE29D31B1EA635D700D013D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE29D3191EA635D700D013D4 /* AiportLocator */,
+				CE29D32D1EA635D700D013D4 /* AiportLocatorTests */,
+				CE29D3381EA635D700D013D4 /* AiportLocatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE29D3181EA635D700D013D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE29D3281EA635D700D013D4 /* LaunchScreen.storyboard in Resources */,
+				CE29D3251EA635D700D013D4 /* Assets.xcassets in Resources */,
+				CE29D3231EA635D700D013D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE29D32C1EA635D700D013D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE29D3371EA635D700D013D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1684A9D44FD6F4AD2DCB7706 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AiportLocator/Pods-AiportLocator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21B6164189F9C1341C9B7F44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AiportLocatorTests/Pods-AiportLocatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		380DC8AB5E113EE578E1A266 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C614085573FCB0F7D817560 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E18DDAE355A6942943D2428 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AiportLocatorUITests/Pods-AiportLocatorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71727B4A1E17CCB60F901132 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AiportLocatorUITests/Pods-AiportLocatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83D4FC40CE9E15428A3BFA02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D41458AE0FEF962BD517E15D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AiportLocatorTests/Pods-AiportLocatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE82B90ABE80302D2A897CA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AiportLocator/Pods-AiportLocator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE29D3161EA635D700D013D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE29D3581EA6583500D013D4 /* AirportDetailView.swift in Sources */,
+				CE29D3201EA635D700D013D4 /* ViewController.swift in Sources */,
+				CE321A0B1EA793C500433AB0 /* MapAnnotation.swift in Sources */,
+				CE29D3561EA6576000D013D4 /* AirportList.swift in Sources */,
+				CE29D3521EA6511E00D013D4 /* Airport.swift in Sources */,
+				CE29D35A1EA6602D00D013D4 /* DataLoader.swift in Sources */,
+				CE29D31E1EA635D700D013D4 /* AppDelegate.swift in Sources */,
+				CE29D3541EA6556F00D013D4 /* AirportDetailViewController.swift in Sources */,
+				CE29D3501EA6507600D013D4 /* AirportLoc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE29D32A1EA635D700D013D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE29D3331EA635D700D013D4 /* AiportLocatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE29D3351EA635D700D013D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE29D3301EA635D700D013D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE29D3191EA635D700D013D4 /* AiportLocator */;
+			targetProxy = CE29D32F1EA635D700D013D4 /* PBXContainerItemProxy */;
+		};
+		CE29D33B1EA635D700D013D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE29D3191EA635D700D013D4 /* AiportLocator */;
+			targetProxy = CE29D33A1EA635D700D013D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE29D3211EA635D700D013D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE29D3221EA635D700D013D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE29D3261EA635D700D013D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE29D3271EA635D700D013D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE29D3401EA635D700D013D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE29D3411EA635D700D013D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE29D3431EA635D700D013D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF44CB89AAF4F0149EAF26CD /* Pods-AiportLocator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J3PTR9R9DR;
+				INFOPLIST_FILE = AiportLocator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DR.AiportLocator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE29D3441EA635D700D013D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C0E4AC18F850951ABAAD33 /* Pods-AiportLocator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J3PTR9R9DR;
+				INFOPLIST_FILE = AiportLocator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DR.AiportLocator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CE29D3461EA635D700D013D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D37C9A66C606B2586FA35CEF /* Pods-AiportLocatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AiportLocatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DR.AiportLocatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AiportLocator.app/AiportLocator";
+			};
+			name = Debug;
+		};
+		CE29D3471EA635D700D013D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2A61F4BA4D7EDD0FC3E811E /* Pods-AiportLocatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AiportLocatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DR.AiportLocatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AiportLocator.app/AiportLocator";
+			};
+			name = Release;
+		};
+		CE29D3491EA635D700D013D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43925DC3499C7689648A9EDB /* Pods-AiportLocatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AiportLocatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DR.AiportLocatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AiportLocator;
+			};
+			name = Debug;
+		};
+		CE29D34A1EA635D700D013D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B644C5A84589258069204713 /* Pods-AiportLocatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AiportLocatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DR.AiportLocatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AiportLocator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE29D3151EA635D700D013D4 /* Build configuration list for PBXProject "AiportLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE29D3401EA635D700D013D4 /* Debug */,
+				CE29D3411EA635D700D013D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE29D3421EA635D700D013D4 /* Build configuration list for PBXNativeTarget "AiportLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE29D3431EA635D700D013D4 /* Debug */,
+				CE29D3441EA635D700D013D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE29D3451EA635D700D013D4 /* Build configuration list for PBXNativeTarget "AiportLocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE29D3461EA635D700D013D4 /* Debug */,
+				CE29D3471EA635D700D013D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE29D3481EA635D700D013D4 /* Build configuration list for PBXNativeTarget "AiportLocatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE29D3491EA635D700D013D4 /* Debug */,
+				CE29D34A1EA635D700D013D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE29D3121EA635D700D013D4 /* Project object */;
+}
