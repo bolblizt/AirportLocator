@@ -83,7 +83,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
      func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
-     //   self.loadImagesForOnscreenRows()
         let newList =  self.airportViewModel?.ProcessArray()
         AddNewRows(tableView: self.tableList!, theList: newList!)
         
@@ -168,7 +167,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if start {
             UIView.animate(withDuration: 2.5, delay: 0.0, options: UIViewAnimationOptions(), animations: { () -> Void in
                 
-                //self.overLay!.alpha = 0.8
                 self.viewOverlay!.alpha = 0.8
                 
             }, completion: { (finished: Bool) -> Void in

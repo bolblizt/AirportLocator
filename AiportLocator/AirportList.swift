@@ -12,7 +12,7 @@ class AirportList: NSObject {
     
     var rows:Int = 0
     var section:Int = 0
-    var airportList:[Airport]?
+   private var airportList:[Airport]?
     var fullList:NSArray?
     var tempoList:NSMutableArray?
     var remainingRows:Int = 0
@@ -47,6 +47,11 @@ class AirportList: NSObject {
         airportList = airports
        
         
+    }
+    
+    func getAirportList()->[Airport]{
+        
+        return self.airportList!
     }
     
     func tableCell(index:IndexPath, tableView:UITableView)->UITableViewCell{
